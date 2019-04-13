@@ -175,6 +175,9 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        // relies providers [tambahan]
+        Reliese\Coders\CodersServiceProvider::class,
+
     ],
 
     /*
